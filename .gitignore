@@ -1,0 +1,50 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+
+
+# Environment variables & secrets (NEVER commit .env!)
+.env
+.env.*
+!.env.example
+
+# Python & uv virtual environment
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Spark & Streaming checkpoints
+checkpoints/
+spark-warehouse/
+derby.log
+metastore_db/
+
+# Local data & temporary artifacts
+artifacts/
+data/
+*.parquet
+*.json
+!pyproject.toml
+
+# Airflow local runtime files
+logs/
+airflow.db
+airflow.cfg
+webserver_config.py
+
+# macOS & VS Code
+.DS_Store
+.vscode/
+
+# Local Delta Lake data & logs (keeps .py scripts inside delta_lake/ tracked)
+delta_lake/github_events/
+delta_lake/github_events_streaming/
+_delta_log/

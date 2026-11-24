@@ -1,0 +1,14 @@
+[project]
+name = "data-pipelines"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "apache-airflow-providers-amazon>=9.40.0",
+    "boto3>=1.44.9",
+    "confluent-kafka>=2.16.2",
+    "delta-spark>=4.1.0",
+    "pyspark>=4.3.0",
+    "requests>=2.34.2",
+]
